@@ -14,7 +14,7 @@ It's about applying what I learn from the course Git
 bikeshare.py
 a.csv
 .gitignore
-README.md
+
 
 ### Credits
 https://www.atlassian.com/git/tutorials/what-is-git

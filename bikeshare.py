@@ -73,7 +73,6 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
     elif month != "":
         df['month'] = df['Start Time'].dt.month
-        # use the index of the months list to get the corresponding int
         month = months.index(month) + 1
         df = df[df['month'] == month]
         df['day_of_week'] = df['Start Time'].dt.weekday_name  
